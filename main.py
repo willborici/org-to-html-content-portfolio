@@ -86,7 +86,15 @@ link_data_sorted = sorted(link_data,
 link_data = link_data_sorted
 
 # Instantiate a new BeautifulSoup object
-soup = BeautifulSoup('<html><head></head><body></body></html>', 'html.parser')
+soup = BeautifulSoup('<!DOCTYPE html><html><body></body></html>', 'html.parser')
+
+# Add a meta description for SEO purposes:
+head = soup.new_tag('head')
+meta = soup.new_tag('meta')
+meta.attrs['name'] = 'description'
+meta.attrs['content'] = 'Content portfolio of Will Borici, Strategy and Entropy.'
+head.append(meta)
+soup.html.insert(0, head)
 
 # Add a table to the page
 table = soup.new_tag('table')
@@ -146,5 +154,5 @@ for link in link_data:
 
 # Write the HTML to a file
 with open(html_file_name, 'w') as file:
-    file.write(str(soup))
+    file.write(soup.prettify())
 file.close()
