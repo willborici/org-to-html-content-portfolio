@@ -1,0 +1,192 @@
+# A list of links in the org mode in emacs:
+
+* LinkedIn Articles and Posts
+:PROPERTIES:
+:ID: linkedin_content
+:Description: A collection of my LinkedIn articles and posts
+:END:
+
+** SQL Joins: Where Set Theory Powers Business Magic
+:PROPERTIES:
+:ID: links_linkedin_sql_joins
+:Title: SQL Joins: Where Set Theory Powers Business Magic
+:Date: 2024-06-29
+:Description: Article on LinkedIn
+:CanonicalURI: 
+:ExternalURI: https://www.linkedin.com/pulse/sql-joins-where-set-theory-powers-business-magic-will-borici-liarc/
+:END:
+In which I remind the curious that set theory
+(those little oval diagrams from grade school) come in handy when working
+with structured data.
+
+
+** The Dao of Strategy: A Reflection
+:PROPERTIES:
+:ID: links_linkedin_dao_strategy
+:Title: The Dao of Strategy: A Reflection
+:Date: 2024-02-04
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/dao-strategy-reflection-will-borici-h07qc/
+:END:
+A brief reflection on what strategy is and how it eludes simplistic definitions.
+
+** Strategy Therapy Could Be Therapeutic
+:PROPERTIES:
+:ID: links_linkedin_strategy_therapy
+:Title: Strategy Therapy Could Be Therapeutic
+:Date: 2024-01-09
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/strategy-therapy-could-therapeutic-william-borici-yxifc/
+:END:
+
+** Strategizing as a hedgehog and a fox
+:PROPERTIES:
+:ID: links_linkedin_strategy_gaddis
+:Title: Strategizing as a hedgehog and a fox
+:Date: 2023-12-13
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/strategizing-hedgehog-fox-william-borici-9l7tc/
+:END:
+
+** Winning and Losing Strategies
+:PROPERTIES:
+:ID: links_linkedin_strategy_rumelt
+:Title: Winning and Losing Strategies
+:Date: 2023-09-27
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/winning-losing-strategies-william-borici/
+:END:
+
+** Harnessing Power: The Tacit Element of Strategy Thinking
+:PROPERTIES:
+:ID: links_linkedin_strategy_ona
+:Title: Harnessing Power: The Tacit Element of Strategy Thinking
+:Date: 2023-09-13
+:Description: Article on LinkedIn, featuring organizational network analysis
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/harnessing-power-tacit-element-strategy-thinking-william-borici/
+:END:
+
+** (Interlude) Navigating the Paradox of Social Choice in Strategic Management
+:PROPERTIES:
+:ID: links_linkedin_strategy_choice
+:Title: (Interlude) Navigating the Paradox of Social Choice in Strategic Management
+:Date: 2023-09-06
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/interlude-navigating-paradox-social-choice-strategic-william-borici/
+:END:
+
+** Strategic Moves: The Power of Game Theory
+:PROPERTIES:
+:ID: links_linkedin_strategy_game_theory
+:Title: Strategic Moves: The Power of Game Theory
+:Date: 2023-08-30
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/strategic-moves-power-game-theory-william-borici/
+:END:
+
+** A Meandering Journey Through Systems Thinking
+:PROPERTIES:
+:ID: links_linkedin_systhinking_donna
+:Title: A Meandering Journey Through Systems Thinking
+:Date: 2023-08-16
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/meandering-journey-through-systems-thinking-william-borici/
+:END:
+
+** Souvenirs from Strategy-Ville
+:PROPERTIES:
+:ID: links_linkedin_strategy_mintzberg
+:Title: Souvenirs from Strategy-Ville
+:Date: 2023-08-02
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/souvenirs-from-strategy-ville-william-borici/
+:END:
+
+** The Strategist: Key Insights and Tools
+:PROPERTIES:
+:ID: links_linkedin_strategist_cynthia
+:Title: The Strategist: Key Insights and Tools
+:Date: 2023-07-19
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/strategist-key-insights-tools-william-borici/
+:END:
+
+** In Praise of Purpose
+:PROPERTIES:
+:ID: links_linkedin_purpose
+:Title: In Praise of Purpose
+:Date: 2023-06-26
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/praise-purpose-william-borici/
+:END:
+
+** Why Being Authentic Matters
+:PROPERTIES:
+:ID: links_linkedin_authentic
+:Title: Why Being Authentic Matters
+:Date: 2023-03-31
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/why-being-authentic-matters-william-borix/
+:END:
+
+** Understanding and Influencing Business Ecosystems: The Role of a Systems Thinker
+:PROPERTIES:
+:ID: links_linkedin_biz_ecosystems_systhinker
+:Title: Understanding and Influencing Business Ecosystems: The Role of a Systems Thinker
+:Date: 2023-03-29
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/understanding-influencing-business-ecosystems-role-systems-borix/
+:END:
+
+** Three Approaches to Improve Strategic Thinking
+:PROPERTIES:
+:ID: links_linkedin_improve_stratg
+:Title: Three Approaches to Improve Strategic Thinking
+:Date: 2023-03-28
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/three-approaches-improve-strategic-thinking-william-borix/
+:END:
+
+** A Simple Approach to Tackling Complex Business Problems
+:PROPERTIES:
+:ID: links_linkedin_complex_problems
+:Title: A Simple Approach to Tackling Complex Business Problems
+:Date: 2023-03-27
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/simple-approach-tackling-complex-business-problems-william-borix/
+:END:
+
+** Architecting a Team Structure for Value Creation
+:PROPERTIES:
+:ID: links_linkedin_architect_teams
+:Title: Architecting a Team Structure for Value Creation
+:Date: 2023-03-22
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/architecting-team-structure-value-creation-william-borix/
+:END:
+
+** Building a Healthy Business Analysis Space
+:PROPERTIES:
+:ID: links_linkedin_ba_space
+:Title: Building a Healthy Business Analysis Space
+:Date: 2017-02-02
+:Description: Article on LinkedIn
+:CanonicalURI:
+:ExternalURI: https://www.linkedin.com/pulse/building-business-analysis-space-w-borici-%25E9%2599%2588%25E9%2598%25BF%25E5%25AE%259D-/
+:END:
