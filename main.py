@@ -88,15 +88,24 @@ link_data = link_data_sorted
 # Instantiate a new BeautifulSoup object
 soup = BeautifulSoup('<!DOCTYPE html><html><body></body></html>', 'html.parser')
 
+############## Head content
 # Add a meta description for SEO purposes:
 head = soup.new_tag('head')
 meta = soup.new_tag('meta')
 meta.attrs['name'] = 'description'
 meta.attrs['content'] = 'Content portfolio of Will Borici, Strategy and Entropy.'
 head.append(meta)
+
+# Add the style.css link in the head section
+stylesheet = soup.new_tag('link', rel='stylesheet', href='https://strategyentropy.com/master-content/style.css')
+head.append(stylesheet)
+
+# once finished adding head tags, insert the head into the html
 soup.html.insert(0, head)
 
-# Add a table to the page
+############## Body content
+
+# Add a table to the page with all the link_data entries
 table = soup.new_tag('table')
 soup.body.append(table)
 
