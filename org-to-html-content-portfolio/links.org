@@ -228,3 +228,4 @@ A brief reflection on what strategy is and how it eludes simplistic definitions.
 Ethan Mollick asks a curious question on probabilities, and the masses respond,
 some with Python functions (all the while forgetting of the Law of Large Numbers
 and information entropy).
+@@html: <a href="https://strategyentropy.com/jiandu/entropy-and-spinner-probabilities">More...</a>@@

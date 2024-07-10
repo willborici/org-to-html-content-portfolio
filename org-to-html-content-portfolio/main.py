@@ -90,6 +90,10 @@ for line in data:
         # if we're done processing :PROPERTIES: after reaching :END:, store any text between this line
         # and until we reach the next heading (see code above starting with if line.startswith(ORG_H2):)
         if end_of_h2_properties:
+            # ignore any lines that start with org-mode's @@html.
+            if line.startswith('@@html'):
+                continue
+                
             if line.startswith(ORG_END):
                 current_link['meta_description'] += line.strip(ORG_END)
             else:
