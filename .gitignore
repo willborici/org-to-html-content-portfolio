@@ -1,3 +1,6 @@
 # ignore this file
 ./org-to-html-content-portfolio/export_to_org.py
 export_to_org.py
+
+.DS_Store
+

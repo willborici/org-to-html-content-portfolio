@@ -3,7 +3,7 @@
 
                     #+TITLE: Content Portfolio 
                     #+CREATE_DATE: 02008-08-18 
-                    #+UPDATE_DATE: 02024-07-09 
+                    #+UPDATE_DATE: 02024-07-10  
                     #+EXPORT_FILE_NAME: content-portfolio 
                     #+DESCRIPTION: Index of offsite and onsite published work 
                     #+KEYWORDS: articles, guest posts, posts, essays, books
@@ -15,239 +15,258 @@
 #+HTML:   <link href="https://strategyentropy.com/master-content/style.css" rel="stylesheet"/>
 #+HTML:  </head>
 #+HTML:  <body>
-#+HTML:   <table>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02017-02-02
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/building-business-analysis-space-w-borici-%25E9%2599%2588%25E9%2598%25BF%25E5%25AE%259D-/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Building a Healthy Business Analysis Space
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-03-22
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/architecting-team-structure-value-creation-william-borix/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Architecting a Team Structure for Value Creation
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-03-27
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/simple-approach-tackling-complex-business-problems-william-borix/" target="_blank" title="Article on LinkedIn">
-#+HTML:       A Simple Approach to Tackling Complex Business Problems
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-03-28
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/three-approaches-improve-strategic-thinking-william-borix/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Three Approaches to Improve Strategic Thinking
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-03-29
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/understanding-influencing-business-ecosystems-role-systems-borix/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Understanding and Influencing Business Ecosystems: The Role of a Systems Thinker
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-03-31
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/why-being-authentic-matters-william-borix/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Why Being Authentic Matters
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-06-26
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/praise-purpose-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       In Praise of Purpose
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-07-19
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/strategist-key-insights-tools-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       The Strategist: Key Insights and Tools
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-08-02
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/souvenirs-from-strategy-ville-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Souvenirs from Strategy-Ville
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-08-16
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/meandering-journey-through-systems-thinking-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       A Meandering Journey Through Systems Thinking
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-08-30
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/strategic-moves-power-game-theory-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Strategic Moves: The Power of Game Theory
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-09-06
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/interlude-navigating-paradox-social-choice-strategic-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       (Interlude) Navigating the Paradox of Social Choice in Strategic Management
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-09-13
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/harnessing-power-tacit-element-strategy-thinking-william-borici/" target="_blank" title="Article on LinkedIn, featuring organizational network analysis">
-#+HTML:       Harnessing Power: The Tacit Element of Strategy Thinking
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-09-27
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/winning-losing-strategies-william-borici/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Winning and Losing Strategies
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02023-12-13
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/strategizing-hedgehog-fox-william-borici-9l7tc/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Strategizing as a hedgehog and a fox
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02024-01-09
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/strategy-therapy-could-therapeutic-william-borici-yxifc/" target="_blank" title="Article on LinkedIn">
-#+HTML:       Strategy Therapy Could Be Therapeutic
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02024-02-04
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/dao-strategy-reflection-will-borici-h07qc/" target="_blank" title="Article on LinkedIn">
-#+HTML:       The Dao of Strategy: A Reflection
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      A brief reflection on what strategy is and how it eludes simplistic definitions.
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:    <tr>
-#+HTML:     <td>
-#+HTML:      02024-06-29
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      <a class="external text" href="https://www.linkedin.com/pulse/sql-joins-where-set-theory-powers-business-magic-will-borici-liarc/" target="_blank" title="Article on LinkedIn">
-#+HTML:       SQL Joins: Where Set Theory Powers Business Magic
-#+HTML:      </a>
-#+HTML:     </td>
-#+HTML:     <td>
-#+HTML:      In which I remind the curious that set theory
-#+HTML: (those little oval diagrams from grade school) come in handy when working
-#+HTML: with structured data.
-#+HTML:     </td>
-#+HTML:    </tr>
-#+HTML:   </table>
+#+HTML:   <div class="div-heading" id="LinkedIn_Articles_and_Posts_id">
+#+HTML:    LinkedIn Articles and Posts
+#+HTML:    <table class="portfolio-table">
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02017-02-02
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/building-business-analysis-space-w-borici-%25E9%2599%2588%25E9%2598%25BF%25E5%25AE%259D-/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Building a Healthy Business Analysis Space
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-03-22
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/architecting-team-structure-value-creation-william-borix/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Architecting a Team Structure for Value Creation
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-03-27
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/simple-approach-tackling-complex-business-problems-william-borix/" target="_blank" title="Article on LinkedIn">
+#+HTML:        A Simple Approach to Tackling Complex Business Problems
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-03-28
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/three-approaches-improve-strategic-thinking-william-borix/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Three Approaches to Improve Strategic Thinking
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-03-29
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/understanding-influencing-business-ecosystems-role-systems-borix/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Understanding and Influencing Business Ecosystems: The Role of a Systems Thinker
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-03-31
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/why-being-authentic-matters-william-borix/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Why Being Authentic Matters
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-06-26
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/praise-purpose-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        In Praise of Purpose
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-07-19
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/strategist-key-insights-tools-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        The Strategist: Key Insights and Tools
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-08-02
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/souvenirs-from-strategy-ville-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Souvenirs from Strategy-Ville
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-08-16
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/meandering-journey-through-systems-thinking-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        A Meandering Journey Through Systems Thinking
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-08-30
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/strategic-moves-power-game-theory-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Strategic Moves: The Power of Game Theory
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-09-06
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/interlude-navigating-paradox-social-choice-strategic-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        (Interlude) Navigating the Paradox of Social Choice in Strategic Management
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-09-13
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/harnessing-power-tacit-element-strategy-thinking-william-borici/" target="_blank" title="Article on LinkedIn, featuring organizational network analysis">
+#+HTML:        Harnessing Power: The Tacit Element of Strategy Thinking
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-09-27
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/winning-losing-strategies-william-borici/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Winning and Losing Strategies
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02023-12-13
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/strategizing-hedgehog-fox-william-borici-9l7tc/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Strategizing as a hedgehog and a fox
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02024-01-09
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/strategy-therapy-could-therapeutic-william-borici-yxifc/" target="_blank" title="Article on LinkedIn">
+#+HTML:        Strategy Therapy Could Be Therapeutic
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02024-02-04
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/dao-strategy-reflection-will-borici-h07qc/" target="_blank" title="Article on LinkedIn">
+#+HTML:        The Dao of Strategy: A Reflection
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       A brief reflection on what strategy is and how it eludes simplistic definitions.
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02024-06-29
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a class="external text" href="https://www.linkedin.com/pulse/sql-joins-where-set-theory-powers-business-magic-will-borici-liarc/" target="_blank" title="Article on LinkedIn">
+#+HTML:        SQL Joins: Where Set Theory Powers Business Magic
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       In which I remind the curious that set theory(those little oval diagrams from grade school) come in handy when workingwith structured data.
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:    </table>
+#+HTML:   </div>
+#+HTML:   <div class="div-heading" id="Bamboo_Slips_id">
+#+HTML:    Bamboo Slips
+#+HTML:    <table class="portfolio-table">
+#+HTML:     <tr>
+#+HTML:      <td>
+#+HTML:       02024-07-10
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       <a href="https://strategyentropy.com/jiandu/entropy-and-spinner-probabilities" rel="canonical" title="A reaction to Prof. Ethan Mollick's LinkedIn poll">
+#+HTML:        Of Uncertainties and Probabilities
+#+HTML:       </a>
+#+HTML:      </td>
+#+HTML:      <td>
+#+HTML:       Ethan Mollick asks a curious question on probabilities, and the masses respond,some with Python functions (all the while forgetting of the Law of Large Numbersand information entropy).
+#+HTML:      </td>
+#+HTML:     </tr>
+#+HTML:    </table>
+#+HTML:   </div>
 #+HTML:  </body>
 #+HTML: </html>
 
- <div class=footer>
-                                <div>
-                                Page auto-generated via 
-                                <a class="external text" href="https://github.com/willborici/org-to-html-content-portfolio/tree/main/org-to-html-content-portfolio" target="_blank">
-                                this Python script.
-                                </a>
-                                </div>
-                            </div>
+#+HTML: <div class=footer>
+                           #+HTML:     <div>
+                           #+HTML:     Page auto-generated via 
+                           #+HTML:     <a class="external text" href="https://github.com/willborici/org-to-html-content-portfolio/tree/main/org-to-html-content-portfolio" target="_blank">
+                           #+HTML:     this Python script.
+                           #+HTML:     </a>
+                           #+HTML:     </div>
+                           #+HTML: </div>
 
 
 #+INCLUDE: "/Users/wb/Documents/strategyentropy.com/master-content/postamble.org"
