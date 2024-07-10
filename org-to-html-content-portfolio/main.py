@@ -45,7 +45,7 @@ current_link = {}
 # Parse the org file
 end_of_properties = False  # signal if the properties block has ended, to read the meta description lines
 for line in data:
-    line = line.strip()  # remove any leading spaces
+    line = line.lstrip()  # remove any leading spaces
 
     if line.startswith(ORG_H2):
         # signal that new properties are starting, so don't add ORG_H2 line and title to current meta desc.
@@ -53,11 +53,6 @@ for line in data:
 
     # if line starts with :PROPERTIES:, set up a new link after saving current one
     if line.startswith(ORG_PROPERTIES):
-        # Save the previous link if it exists and has a date and at least a URI
-        if current_link:
-            if ('date' in current_link and
-                    ('canonicalURI' in current_link or 'externalURI' in current_link)):
-                link_data.append(current_link)
         # Start a new link
         current_link = {}  # initialize new link dictionary entry
     elif line.startswith(ORG_ID):
@@ -75,6 +70,11 @@ for line in data:
     elif line.startswith(ORG_END):
         end_of_properties = True  # properties done, now read the meta text, if available
         current_link['meta_description'] = ''
+        # Save the current link if it exists and has a date and at least a URI
+        if current_link:
+            if ('date' in current_link and
+                    ('canonicalURI' in current_link or 'externalURI' in current_link)):
+                link_data.append(current_link)
 
     # if we're done processing :PROPERTIES: after reaching :END:, store any text between this line
     # and until we reach the next heading (see code above starting with if line.startswith(ORG_H2):)
@@ -124,7 +124,8 @@ for link in link_data:
     date = pd.to_datetime(link.get('date', ''))
     if pd.notnull(date):
         date_cell = soup.new_tag('td')
-        date_cell.string = date.strftime('%Y-%m-%d')
+        # use the five-digit year, per Long Now:
+        date_cell.string = '0' + date.strftime('%Y-%m-%d')
         row.append(date_cell)
     else:
         row.append(soup.new_tag('td'))
@@ -132,13 +133,13 @@ for link in link_data:
     # Add a bunch of other properties to the right column
     title = link.get('title', '')
     description = link.get('description', '')
-    canonical_URI = link.get('canonicalURI', '')
-    external_URI = link.get('externalURI', '')
+    canonical_URI = link.get('canonicalURI', '').strip()
+    external_URI = link.get('externalURI', '').strip()
     meta_description = link.get('meta_description', '')
 
     if title:
         title_cell = soup.new_tag('td')
-        if canonical_URI:  # hyperlink title
+        if len(canonical_URI) > 0:  # prefer canonical URIs before external ones
             a_tag = soup.new_tag('a', href=canonical_URI)
             a_tag['target'] = '_blank'
             if description:
@@ -146,8 +147,10 @@ for link in link_data:
             a_tag['rel'] = 'canonical'  # prefer internal link first, but ensure rel="canonical" for SEO
             a_tag.string = title
             title_cell.append(a_tag)
-        elif external_URI:
+        elif len(external_URI) > 0:
+            EXTERNAL_LINK_CSS_CLASS = "external text"  # css a.external.text for PNG arrow
             a_tag = soup.new_tag('a', href=external_URI)
+            a_tag['class'] = EXTERNAL_LINK_CSS_CLASS
             a_tag['target'] = '_blank'
             if description:
                 a_tag['title'] = description
