@@ -17,8 +17,10 @@ import pandas as pd  # to read and wrangle source file
 from datetime import datetime  # to sort writings chronologically
 
 # Read the org file
-org_file_location = "./links.org"  # input("Enter the .org file path:")
-html_file_name = "content-index.html"
+org_file_location = "./links.org"  # input("Enter the input .org file path:")
+html_file_name = "content-portfolio.html"  # HTML output
+org_file_name = "content-portfolio.org"  # ORG output
+
 with open(org_file_location, 'r') as file:
     data = file.readlines()
 file.close()
@@ -105,6 +107,9 @@ soup.html.insert(0, head)
 
 ############## Body content
 
+# Add a <div> before the table is printed to explain what this is
+# TODO
+
 # Add a table to the page with all the link_data entries
 table = soup.new_tag('table')
 soup.body.append(table)
@@ -161,7 +166,10 @@ for link in link_data:
     else:
         row.append(soup.new_tag('td'))
 
+str_html = soup.prettify()
 # Write the HTML to a file
 with open(html_file_name, 'w') as file:
-    file.write(soup.prettify())
+    file.write(str_html)
 file.close()
+
+
