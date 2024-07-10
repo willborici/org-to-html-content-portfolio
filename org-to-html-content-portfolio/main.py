@@ -15,6 +15,7 @@
 from bs4 import BeautifulSoup  # to print out html code
 import pandas as pd  # to read and wrangle source file
 from datetime import datetime  # to sort writings chronologically
+import export_to_org as org_export
 
 # Read the org file
 org_file_location = "./links.org"  # input("Enter the input .org file path:")
@@ -172,4 +173,6 @@ with open(html_file_name, 'w') as file:
     file.write(str_html)
 file.close()
 
-
+# export str_html to org:
+# NB: the following function is defined in a file in .gitignore (sorry!)
+org_export.export_string_to_org(org_file_name, str_html)
