@@ -93,7 +93,7 @@ for line in data:
             # ignore any lines that start with org-mode's @@html.
             if line.startswith('@@html'):
                 continue
-                
+
             if line.startswith(ORG_END):
                 current_link['meta_description'] += line.strip(ORG_END)
             else:
@@ -127,6 +127,12 @@ soup.html.insert(0, head)
 ############## Body content
 body = soup.new_tag('body')
 
+# the main content div is required to wrap the body content
+# in line with how org-mode exports to html. This ends before </body>
+content_div = soup.new_tag('div')
+content_div['id'] = 'content'
+content_div['class'] = 'content'
+
 # Add a row for each link, but create a table for each link category
 current_category = []  # grab all categories to generate a table for each:
 for link in link_data:
@@ -142,8 +148,8 @@ for category in current_category:
     # Add the category name as the div name
     category_div.string = category
 
-    # Add the div to the soup with the appended table
-    soup.html.append(category_div)
+    # Add the div to the soup
+    content_div.append(category_div)
 
     # place each table under the category_div:
     # create a new table for the current category:
@@ -199,7 +205,7 @@ for category in current_category:
             else:
                 row.append(soup.new_tag('td'))
 
-            if meta_description:
+            if len(meta_description) > 0:
                 meta_cell = soup.new_tag('td')
                 meta_cell.string = meta_description
                 row.append(meta_cell)
@@ -210,8 +216,10 @@ for category in current_category:
         category_div.append(table)
 
     # add the category contents to the body
-    body.append(category_div)
+    content_div.append(category_div)
 
+# append content_div to body:
+body.append(content_div)
 # append the body tag:
 soup.html.append(body)
 
