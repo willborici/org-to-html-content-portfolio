@@ -1,20 +1,3 @@
-# This is my master list of links where I've published any content.
-# This will not be exported to HTML, but will be used for link transclusion
-#   in other files in my website, where needed.
-# To transclude a link using the org-transclusion package, the code is:
-#     #+transclude: [[[[ id:<ID value> ]]]]
-#     where <ID value> is a property under each link heading
-# NB: since the id must be unique, precede it with a links_ string!
-# Finally, run the M-x org-transclusion-add or add-all command to view the transcluded text
-# then, i can delete any text i don't want in the transcluded content without
-# affecting this master content here.
-
-
-# #+TITLE: External Links
-# #+CREATE_DATE: 02024-07-08
-# #+UPDATE_DATE: 02024-07-08
-# #+DESCRIPTION: A single source of truth for all URIs where I've published content
-# #+KEYWORDS: links, URI, URL
 
 * LinkedIn Articles and Posts
 :PROPERTIES:
@@ -225,7 +208,5 @@ A brief reflection on what strategy is and how it eludes simplistic definitions.
 :ExternalURI: 
 :END:
 
-Ethan Mollick asks a curious question on probabilities, and the masses respond,
-some with Python functions (all the while forgetting of the Law of Large Numbers
-and information entropy).
-@@html: <a href="/jiandu/entropy-and-spinner-probabilities">More...</a>@@
+
+
