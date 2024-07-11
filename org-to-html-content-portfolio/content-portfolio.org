@@ -246,7 +246,7 @@
 #+HTML:       02024-07-10
 #+HTML:      </td>
 #+HTML:      <td>
-#+HTML:       <a href="https://strategyentropy.com/jiandu/entropy-and-spinner-probabilities" rel="canonical" title="A reaction to Prof. Ethan Mollick's LinkedIn poll">
+#+HTML:       <a href="/jiandu/entropy-and-spinner-probabilities" rel="canonical" title="A reaction to Prof. Ethan Mollick's LinkedIn poll">
 #+HTML:        Of Uncertainties and Probabilities
 #+HTML:       </a>
 #+HTML:      </td>

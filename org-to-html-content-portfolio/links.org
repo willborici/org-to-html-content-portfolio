@@ -221,11 +221,11 @@ A brief reflection on what strategy is and how it eludes simplistic definitions.
 :Title: Of Uncertainties and Probabilities
 :Date: 2024-07-10
 :Description: A reaction to Prof. Ethan Mollick's LinkedIn poll
-:CanonicalURI: https://strategyentropy.com/jiandu/entropy-and-spinner-probabilities
+:CanonicalURI: /jiandu/entropy-and-spinner-probabilities
 :ExternalURI: 
 :END:
 
 Ethan Mollick asks a curious question on probabilities, and the masses respond,
 some with Python functions (all the while forgetting of the Law of Large Numbers
 and information entropy).
-@@html: <a href="https://strategyentropy.com/jiandu/entropy-and-spinner-probabilities">More...</a>@@
+@@html: <a href="/jiandu/entropy-and-spinner-probabilities">More...</a>@@
