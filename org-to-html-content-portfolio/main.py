@@ -18,7 +18,7 @@ from datetime import datetime  # to sort writings chronologically
 import export_to_org as org_export
 
 # Read the org file
-org_file_location = "./links.org"  # input("Enter the input .org file path:")
+org_file_location = input("Enter the input .org file path:").strip()
 html_file_name = "content-portfolio.html"  # HTML output
 org_file_name = "content-portfolio.org"  # ORG output
 
@@ -94,10 +94,11 @@ for line in data:
             if line.startswith('@@html'):
                 continue
 
+            # TODO work on a more efficient way to do string concatenation
             if line.startswith(ORG_END):
-                current_link['meta_description'] += line.strip(ORG_END)
+                current_link['meta_description'] += line.strip(ORG_END) + ' '
             else:
-                current_link['meta_description'] += line.strip()
+                current_link['meta_description'] += line.strip() + ' '  # this also strips '\n'
 
 # Convert the date strings to datetime objects and sort the list chronologically
 link_data_sorted = sorted(link_data,
