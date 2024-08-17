@@ -215,6 +215,20 @@ A brief reflection on what strategy is and how it eludes simplistic definitions.
 :Description: A collection of my blog  posts
 :END:
 
+** Sorting Things Out
+:PROPERTIES:
+:ID: sorting_things_out
+:Title: Sorting Things Out
+:Date: 2010-10-29
+:Description: A visual summary of sorting algorithms
+:CanonicalURI: /jiandu/sorting-things-out
+:ExternalURI: 
+:END:
+
+A visual summary of key properties of various sorting algorithms.
+@@html: <a href="/jiandu/sorting-things-out">More...</a>@@
+
+
 ** Of Uncertainties and Probabilities
 :PROPERTIES:
 :ID: jiandu_entropy_probability
@@ -225,7 +239,23 @@ A brief reflection on what strategy is and how it eludes simplistic definitions.
 :ExternalURI: 
 :END:
 
-Ethan Mollick asks a curious question on probabilities, and the masses respond,
-some with Python functions (all the while forgetting of the Law of Large Numbers
+Ethan Mollick asks a curious question on probabilities, and the masses respond, 
+some with Python functions (all the while forgetting of the Law of Large Numbers 
 and information entropy).
 @@html: <a href="/jiandu/entropy-and-spinner-probabilities">More...</a>@@
+
+
+** Project Update: Organizational Network Analysis
+:PROPERTIES:
+:ID: jiandu_project_update_ona
+:Title: Project Update: Organizational Network Analysis
+:Date: 2024-07-17
+:Description: Initial project update on my ONA Python framework
+:CanonicalURI: /jiandu/project-update-ona
+:ExternalURI: 
+:END:
+
+An initial update on my organizational network analysis project, which aims at 
+providing a simple framework for analyzing organizational dynamics and power 
+structures.
+@@html: <a href="/jiandu/project-update-ona">More...</a>@@

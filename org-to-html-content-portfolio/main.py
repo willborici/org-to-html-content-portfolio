@@ -106,7 +106,7 @@ link_data_sorted = sorted(link_data,
                                                                 '%Y-%m-%d') if 'date' in writing else datetime.min)
 
 link_data = link_data_sorted
-print(link_data)
+
 # Instantiate a new BeautifulSoup object
 soup = BeautifulSoup('<!DOCTYPE html><html></html>', 'html.parser')
 
